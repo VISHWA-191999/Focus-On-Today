@@ -1,0 +1,139 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #f2faed;
+}
+
+.heading{
+   
+    
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    color: #48a300;
+   
+} 
+.heading span{
+    color: #61481c;
+}  
+.container{
+    /* display: flex; */
+    max-width: 660px;
+    /* height: 810px; */
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: auto;
+    background-color:#fbfbfb
+    ;
+    padding: 29px 42px;
+    
+
+}
+.container>h2{
+    /* width: 125px; */
+    /* height: 30px; */
+   
+    font-weight: 700;
+    font-size: 32px;
+    /* margin-left: 42px;
+    margin-top: 29px; */
+   
+    margin: 0px;
+
+}
+.sun-icon{
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+p{
+    color: #858585;
+    font-size: 16px;
+    margin-bottom: 18px;
+    /* margin: 105px 44px ; */
+}
+.progress-bar{
+    height: 30px;
+    background-color: rgba(72, 163, 0, 0.1);
+    border-radius: 15px;
+}
+.progress-value{
+    height: 100%;
+    background-color:rgba(72, 163, 0, 1);
+    border-radius: 15px;
+    width: 66%;
+}
+.innerText-bar{
+    color: #EEFFE0;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 5px;
+   
+}
+
+.error-goal{
+    color: rgba(255, 81, 81, 1);
+    margin-block: 20px
+    ;
+}
+.goal-container{
+    height: 82px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 17px;
+    padding: 29px 22px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 46px;
+    
+}
+
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    
+
+}
+.input-goal {
+    height: 28px;
+    margin-left: 22px;
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+    /* display: none; */
+    outline: none;
+    
+    
+}
+
+.input-goal::placeholder{
+    
+  color: #D9D9D9;
+    
+}
+
+.bottom-para1 {
+
+    color: #000000;
+    text-align: center;
+}
+.bottom {
+    font-size: 10px;
+    color: #858585;
+    text-align: center;
+}
+
+@media  (max-width:700px) {
+
+    .heading {
+        font-size: 32px;
+        
+    }
+    .goal-container{
+        padding: 10px 10px;
+        margin-bottom: 20px;
+    }
+}
